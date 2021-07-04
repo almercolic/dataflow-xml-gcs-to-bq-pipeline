@@ -17,10 +17,10 @@ The following command triggers the pipeline:
 mvn compile exec:java \
   -Dexec.mainClass=de.acolic.demos.App \
   -Dexec.args=" \
-  --sourcePath=gs://xml-pipeline-storage-287/files/** \
-  --outputTable=xml-pipeline-example-287:company_dataset.companies \
-  --gcpTempLocation=gs://xml-pipeline-dataflow-287/temp \
-  --project=xml-pipeline-example-287 \
+  --sourcePath=gs://xml-pipeline-storage-<random-suffix>/files/** \
+  --outputTable=xml-pipeline-example-<random-suffix>:company_dataset.companies \
+  --gcpTempLocation=gs://xml-pipeline-dataflow-<random-suffix>/temp \
+  --project=xml-pipeline-example-<random-suffix> \
   --region=europe-west4 \
   --runner=DataflowRunner"
 ```
