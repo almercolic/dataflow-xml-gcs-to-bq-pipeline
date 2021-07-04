@@ -1,0 +1,14 @@
+<company>
+    <name>My Company GmbH</name>
+    <phonenumbers>
+        <number>0174-1234567</number>
+    </phonenumbers>
+    <addresses>
+        <address>
+            <street>Erste str.</street>
+            <housenumber>1</housenumber>
+            <city>Wiesbaden</city>
+            <zipcode>65201</zipcode>
+        </address>
+    </addresses>
+</company>

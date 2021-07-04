@@ -1,0 +1,28 @@
+<company>
+    <name>Test GmbH</name>
+    <phonenumbers>
+        <number>0171-1234567</number>
+        <number>0172-1234567</number>
+        <number>0173-1234567</number>
+    </phonenumbers>
+    <addresses>
+        <address>
+            <street>Erste str.</street>
+            <housenumber>1</housenumber>
+            <city>Berlin</city>
+            <zipcode>12345</zipcode>
+        </address>
+        <address>
+            <street>Zweite str.</street>
+            <housenumber>1</housenumber>
+            <city>Berlin</city>
+            <zipcode>12345</zipcode>
+        </address>
+        <address>
+            <street>Dritte str.</street>
+            <housenumber>1</housenumber>
+            <city>Berlin</city>
+            <zipcode>12345</zipcode>
+        </address>
+    </addresses>
+</company>
